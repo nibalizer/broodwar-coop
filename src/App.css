@@ -34,4 +34,6 @@
   padding: 2rem;
   position: relative;
   z-index: 2;
+  width: 80%;
+  margin: 0 auto;
 }
