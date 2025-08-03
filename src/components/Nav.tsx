@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav className="nav">
       <div className="nav-brand">
-        <h2>BW Coop</h2>
+        <h2>Broodwar Co-op</h2>
       </div>
       <ul className="nav-links">
         <li><a href="#home">Home</a></li>
