@@ -11,8 +11,8 @@ function Setup() {
         <h3>What You'll Need:</h3>
         <ul>
           <li><strong>StarCraft: Brood War</strong> - Original game or Remastered version</li>
-          <li><strong>Windows PC</strong> - Required for StarCraft compatibility</li>
-          <li><strong>Friends to play with</strong> - Co-op is best with 2-4 players</li>
+          <li><strong>Windows, Mac, or Linux PC</strong> - Required for StarCraft compatibility</li>
+          <li><strong>Friends to play with</strong> - Co-op supports 1-3 players</li>
         </ul>
       </ContentBox>
 
