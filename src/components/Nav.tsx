@@ -12,7 +12,8 @@ export default function Nav() {
         <li><Link to="/play">Play</Link></li>
         <li><Link to="/setup">Setup</Link></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/nibalizer/broodwar-coop/issues/new" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+        <li><a href="https://github.com/nibalizer/broodwar-coop" target="_blank" rel="noopener noreferrer">GitHub</a></li>
       </ul>
     </nav>
   )
