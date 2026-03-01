@@ -1,0 +1,33 @@
+{
+  "maps": [
+    {
+      "id": "tundra-of-terror",
+      "name": "Tundra of Terror",
+      "version": "0.3",
+      "description": "Fight through AI forces, steal a crystal, and return it to the beacon before time runs out.",
+      "variants": [
+        {
+          "id": "tundra-easy",
+          "difficulty": "Easy",
+          "description": "Fight through AI forces and steal the crystal with plenty of time",
+          "timeLimit": "60 minutes",
+          "downloadUrl": "https://dprb1kkglcoiz.cloudfront.net/maps/tundra_of_terror_0.3_easy.scx"
+        },
+        {
+          "id": "tundra-medium",
+          "difficulty": "Medium",
+          "description": "Balanced challenge with moderate time pressure",
+          "timeLimit": "45 minutes",
+          "downloadUrl": "https://dprb1kkglcoiz.cloudfront.net/maps/tundra_of_terror_0.3_medium.scx"
+        },
+        {
+          "id": "tundra-hard",
+          "difficulty": "Hard",
+          "description": "Maximum challenge with tight time constraints",
+          "timeLimit": "30 minutes",
+          "downloadUrl": "https://dprb1kkglcoiz.cloudfront.net/maps/tundra_of_terror_0.3_hard.scx"
+        }
+      ]
+    }
+  ]
+}
