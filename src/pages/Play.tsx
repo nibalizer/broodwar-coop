@@ -68,6 +68,16 @@ export default function Play() {
   const [selRace, setSelRace] = useState<string | null>(null)
   const [selQte, setSelQte] = useState<string | null>(null)
 
+  const [randDifficulty, setRandDifficulty] = useState<string | null>(null)
+  const [randEntry, setRandEntry] = useState<ManifestEntry | null>(null)
+
+  function rollRandom() {
+    if (!randDifficulty) return
+    const pool = manifest.filter(m => m.difficulty === randDifficulty)
+    if (!pool.length) return
+    setRandEntry(pool[Math.floor(Math.random() * pool.length)])
+  }
+
   useEffect(() => {
     const b = ensure_slash(JSON_BASE)
     Promise.all([
@@ -163,14 +173,39 @@ export default function Play() {
             <div className="selector-list scrollable">
 
               {(() => {
+                const combos = qteOpts.filter(o => o.category === 'combo')
+                if (!combos.length) return null
+                return (
+                  <div>
+                    <div className="selector-group">Combo Loadouts</div>
+                    {combos.map(o => (
+                      <button
+                        key={o.id}
+                        className={`selector-btn${selQte === o.id ? ' selected' : ''}`}
+                        onClick={() => setSelQte(o.id)}
+                      >
+                        <span>{o.label}</span>
+                        {o.description && (
+                          <span className="selector-sub combo-desc">{o.description}</span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                )
+              })()}
+
+              {(() => {
                 const none = qteOpts.find(o => o.category === 'none')
                 return none && (
-                  <button
-                    className={`selector-btn${selQte === none.id ? ' selected' : ''}`}
-                    onClick={() => setSelQte(none.id)}
-                  >
-                    <span>{none.label}</span>
-                  </button>
+                  <div>
+                    <div className="selector-group">Single Events</div>
+                    <button
+                      className={`selector-btn${selQte === none.id ? ' selected' : ''}`}
+                      onClick={() => setSelQte(none.id)}
+                    >
+                      <span>{none.label}</span>
+                    </button>
+                  </div>
                 )
               })()}
 
@@ -195,28 +230,6 @@ export default function Play() {
                   </div>
                 )
               })}
-
-              {(() => {
-                const combos = qteOpts.filter(o => o.category === 'combo')
-                if (!combos.length) return null
-                return (
-                  <div>
-                    <div className="selector-group">Combo Loadouts</div>
-                    {combos.map(o => (
-                      <button
-                        key={o.id}
-                        className={`selector-btn${selQte === o.id ? ' selected' : ''}`}
-                        onClick={() => setSelQte(o.id)}
-                      >
-                        <span>{o.label}</span>
-                        {o.description && (
-                          <span className="selector-sub combo-desc">{o.description}</span>
-                        )}
-                      </button>
-                    ))}
-                  </div>
-                )
-              })()}
 
             </div>
           </div>
@@ -250,6 +263,62 @@ export default function Play() {
           )}
         </ContentBox>
       )}
+
+      <ContentBox title="Random Map">
+        <p className="random-intro">Pick a difficulty and let the dice decide the rest.</p>
+        <div className="random-controls">
+          <div className="selector-list random-diff">
+            {variables.difficulty.options.map(o => (
+              <button
+                key={o.id}
+                className={`selector-btn${randDifficulty === o.id ? ' selected' : ''}`}
+                onClick={() => { setRandDifficulty(o.id); setRandEntry(null) }}
+              >
+                <span>{o.label}</span>
+                <span className="selector-sub">{fmt_time(o.timer_seconds)}</span>
+              </button>
+            ))}
+          </div>
+          <button
+            className={`roll-btn${!randDifficulty ? ' disabled' : ''}`}
+            onClick={rollRandom}
+            disabled={!randDifficulty}
+          >
+            Roll
+          </button>
+        </div>
+
+        {randEntry && (() => {
+          const diffOpt = variables!.difficulty.options.find(o => o.id === randEntry.difficulty)
+          const raceOpt = variables!.race.options.find(o => o.id === randEntry.race)
+          const qteOpt  = variables!.qte.options.find(o => o.id === randEntry.qte_loadout)
+          const eventsStr = randEntry.qtes.length
+            ? randEntry.qtes.map(q => q.label).join('  +  ')
+            : 'None'
+          return (
+            <div className="download-section" style={{ marginTop: '1rem' }}>
+              <div className="download-filename">{randEntry.filename}</div>
+              <div className="download-meta">
+                <span>{diffOpt?.label}</span>
+                <span>vs. {raceOpt?.label}</span>
+                <span>Timer {fmt_time(randEntry.timer_seconds)}</span>
+              </div>
+              <div className="download-events">
+                Event: {eventsStr}
+                {qteOpt?.description && (
+                  <span className="download-desc"> — {qteOpt.description}</span>
+                )}
+              </div>
+              <div className="random-actions">
+                <a className="download-btn" href={ensure_slash(DOWNLOAD_BASE) + randEntry.filename} download={randEntry.filename}>
+                  Download Map
+                </a>
+                <button className="reroll-btn" onClick={rollRandom}>Reroll</button>
+              </div>
+            </div>
+          )
+        })()}
+      </ContentBox>
 
       <ContentBox title="Getting Started">
         <p>After downloading:</p>

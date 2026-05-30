@@ -79,19 +79,20 @@
 
 .selector-sub {
   font-size: 0.68rem;
-  color: #335533;
+  color: #669966;
   flex-shrink: 0;
   white-space: nowrap;
 }
 
 .selector-btn.selected .selector-sub {
-  color: #008800;
+  color: #00cc00;
 }
 
 /* combo descriptions wrap under the label */
 .combo-desc {
   display: block;
-  font-size: 0.65rem;
+  font-size: 0.68rem;
+  color: #77aa77;
   white-space: normal;
   line-height: 1.3;
   margin-top: 0.15rem;
@@ -117,17 +118,17 @@
   flex-wrap: wrap;
   gap: 0.25rem 1.25rem;
   font-size: 0.75rem;
-  color: #557755;
+  color: #88bb88;
 }
 
 .download-events {
   font-size: 0.75rem;
-  color: #557755;
+  color: #88bb88;
   margin-bottom: 0.25rem;
 }
 
 .download-desc {
-  color: #335533;
+  color: #669966;
 }
 
 .download-btn {
@@ -150,6 +151,77 @@
 .download-btn:hover {
   background: #00ff00;
   color: #000;
+}
+
+/* ── Random map ───────────────────────────────────────────────────────────── */
+
+.random-intro {
+  color: #88bb88;
+  font-size: 0.82rem;
+  margin-bottom: 0.75rem;
+}
+
+.random-controls {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.random-diff {
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.roll-btn {
+  padding: 0.5rem 1.5rem;
+  background: transparent;
+  border: 1px solid #00ff00;
+  border-radius: 0;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.1s, color 0.1s;
+  align-self: center;
+}
+
+.roll-btn:hover:not(.disabled) {
+  background: #00ff00;
+  color: #000;
+}
+
+.roll-btn.disabled {
+  border-color: #224422;
+  color: #224422;
+  cursor: not-allowed;
+}
+
+.random-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.reroll-btn {
+  padding: 0.7rem 1.2rem;
+  background: transparent;
+  border: 1px solid #446644;
+  border-radius: 0;
+  color: #669966;
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.1s, color 0.1s;
+}
+
+.reroll-btn:hover {
+  border-color: #00ff00;
+  color: #00ff00;
 }
 
 /* ── Responsive ───────────────────────────────────────────────────────────── */
