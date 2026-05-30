@@ -1,0 +1,165 @@
+.err {
+  color: #ff4444;
+}
+
+/* ── Variant selector grid ─────────────────────────────────────────────────── */
+
+.variant-grid {
+  display: grid;
+  grid-template-columns: 170px 170px 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.selector-panel {
+  border: 1px solid #003300;
+}
+
+.selector-header {
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid #003300;
+}
+
+.selector-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+}
+
+.selector-list.scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #003300 #000;
+}
+
+.selector-group {
+  font-size: 0.6rem;
+  color: #005500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.55rem 0.5rem 0.15rem;
+  user-select: none;
+}
+
+.selector-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.4rem 0.55rem;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0;
+  color: #889988;
+  font-family: 'Courier New', monospace;
+  font-size: 0.82rem;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.08s, color 0.08s, background 0.08s;
+}
+
+.selector-btn:hover {
+  border-color: #004400;
+  background: #001100;
+  color: #aaccaa;
+}
+
+.selector-btn.selected {
+  background: #001a00;
+  border-color: #00ff00;
+  color: #00ff00;
+}
+
+.selector-sub {
+  font-size: 0.68rem;
+  color: #335533;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.selector-btn.selected .selector-sub {
+  color: #008800;
+}
+
+/* combo descriptions wrap under the label */
+.combo-desc {
+  display: block;
+  font-size: 0.65rem;
+  white-space: normal;
+  line-height: 1.3;
+  margin-top: 0.15rem;
+}
+
+/* ── Download section ─────────────────────────────────────────────────────── */
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.download-filename {
+  color: #00ff00;
+  font-size: 0.9rem;
+  text-shadow: 0 0 4px #00ff00;
+  margin-bottom: 0.1rem;
+}
+
+.download-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  font-size: 0.75rem;
+  color: #557755;
+}
+
+.download-events {
+  font-size: 0.75rem;
+  color: #557755;
+  margin-bottom: 0.25rem;
+}
+
+.download-desc {
+  color: #335533;
+}
+
+.download-btn {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 0.7rem 2rem;
+  margin-top: 0.5rem;
+  background: transparent;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.1s, color 0.1s;
+}
+
+.download-btn:hover {
+  background: #00ff00;
+  color: #000;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────────── */
+
+@media (max-width: 680px) {
+  .variant-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .selector-list.scrollable {
+    max-height: 240px;
+  }
+}

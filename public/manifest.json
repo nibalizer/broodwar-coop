@@ -1,0 +1,4763 @@
+[
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_none.scx",
+    "slug": "easy_zerg_none",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "none",
+    "qtes": [],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_ghost_protocol.scx",
+    "slug": "easy_zerg_ghost_protocol",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "ghost_protocol",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_confederacy_remnant.scx",
+    "slug": "easy_zerg_confederacy_remnant",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "confederacy_remnant",
+    "qtes": [
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_jacobs_echo.scx",
+    "slug": "easy_zerg_jacobs_echo",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "jacobs_echo",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_durans_parting_gift.scx",
+    "slug": "easy_zerg_durans_parting_gift",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "durans_parting_gift",
+    "qtes": [
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_dominion_air_superiority.scx",
+    "slug": "easy_zerg_dominion_air_superiority",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "dominion_air_superiority",
+    "qtes": [
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_swarm_remembers.scx",
+    "slug": "easy_zerg_swarm_remembers",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "swarm_remembers",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_kerrigans_test.scx",
+    "slug": "easy_zerg_kerrigans_test",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "kerrigans_test",
+    "qtes": [
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_brood_incursion.scx",
+    "slug": "easy_zerg_brood_incursion",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "brood_incursion",
+    "qtes": [
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_nydus_surprise.scx",
+    "slug": "easy_zerg_nydus_surprise",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "nydus_surprise",
+    "qtes": [
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_chrysalis_guard.scx",
+    "slug": "easy_zerg_chrysalis_guard",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "chrysalis_guard",
+    "qtes": [
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_aldaris_judgment.scx",
+    "slug": "easy_zerg_aldaris_judgment",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "aldaris_judgment",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_dark_templar_shadows.scx",
+    "slug": "easy_zerg_dark_templar_shadows",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "dark_templar_shadows",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_judicators_decree.scx",
+    "slug": "easy_zerg_judicators_decree",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "judicators_decree",
+    "qtes": [
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_conclave_retaliation.scx",
+    "slug": "easy_zerg_conclave_retaliation",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "conclave_retaliation",
+    "qtes": [
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_tassadars_echo.scx",
+    "slug": "easy_zerg_tassadars_echo",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "tassadars_echo",
+    "qtes": [
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_xelnaga_ruin.scx",
+    "slug": "easy_zerg_xelnaga_ruin",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "xelnaga_ruin",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_mercenary_contract.scx",
+    "slug": "easy_zerg_mercenary_contract",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "mercenary_contract",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_psi_emitter.scx",
+    "slug": "easy_zerg_psi_emitter",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "psi_emitter",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_umojan_interference.scx",
+    "slug": "easy_zerg_umojan_interference",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "umojan_interference",
+    "qtes": [
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_long_memory.scx",
+    "slug": "easy_zerg_long_memory",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "long_memory",
+    "qtes": [
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_psi_and_swarm.scx",
+    "slug": "easy_zerg_psi_and_swarm",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "psi_and_swarm",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_terran_squeeze.scx",
+    "slug": "easy_zerg_terran_squeeze",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "terran_squeeze",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_durans_setup.scx",
+    "slug": "easy_zerg_durans_setup",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "durans_setup",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_protoss_pincer.scx",
+    "slug": "easy_zerg_protoss_pincer",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "protoss_pincer",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_outside_in.scx",
+    "slug": "easy_zerg_outside_in",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "outside_in",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_zerg_escalation.scx",
+    "slug": "easy_zerg_zerg_escalation",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "zerg_escalation",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_protoss_tribunal.scx",
+    "slug": "easy_zerg_protoss_tribunal",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "protoss_tribunal",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_ancient_forces.scx",
+    "slug": "easy_zerg_ancient_forces",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "ancient_forces",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_hired_then_judged.scx",
+    "slug": "easy_zerg_hired_then_judged",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "hired_then_judged",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_zerg_all_fronts.scx",
+    "slug": "easy_zerg_all_fronts",
+    "difficulty": "easy",
+    "race": "zerg",
+    "qte_loadout": "all_fronts",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_none.scx",
+    "slug": "easy_terran_none",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "none",
+    "qtes": [],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_ghost_protocol.scx",
+    "slug": "easy_terran_ghost_protocol",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "ghost_protocol",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_confederacy_remnant.scx",
+    "slug": "easy_terran_confederacy_remnant",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "confederacy_remnant",
+    "qtes": [
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_jacobs_echo.scx",
+    "slug": "easy_terran_jacobs_echo",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "jacobs_echo",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_durans_parting_gift.scx",
+    "slug": "easy_terran_durans_parting_gift",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "durans_parting_gift",
+    "qtes": [
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_dominion_air_superiority.scx",
+    "slug": "easy_terran_dominion_air_superiority",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "dominion_air_superiority",
+    "qtes": [
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_swarm_remembers.scx",
+    "slug": "easy_terran_swarm_remembers",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "swarm_remembers",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_kerrigans_test.scx",
+    "slug": "easy_terran_kerrigans_test",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "kerrigans_test",
+    "qtes": [
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_brood_incursion.scx",
+    "slug": "easy_terran_brood_incursion",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "brood_incursion",
+    "qtes": [
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_nydus_surprise.scx",
+    "slug": "easy_terran_nydus_surprise",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "nydus_surprise",
+    "qtes": [
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_chrysalis_guard.scx",
+    "slug": "easy_terran_chrysalis_guard",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "chrysalis_guard",
+    "qtes": [
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_aldaris_judgment.scx",
+    "slug": "easy_terran_aldaris_judgment",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "aldaris_judgment",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_dark_templar_shadows.scx",
+    "slug": "easy_terran_dark_templar_shadows",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "dark_templar_shadows",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_judicators_decree.scx",
+    "slug": "easy_terran_judicators_decree",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "judicators_decree",
+    "qtes": [
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_conclave_retaliation.scx",
+    "slug": "easy_terran_conclave_retaliation",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "conclave_retaliation",
+    "qtes": [
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_tassadars_echo.scx",
+    "slug": "easy_terran_tassadars_echo",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "tassadars_echo",
+    "qtes": [
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_xelnaga_ruin.scx",
+    "slug": "easy_terran_xelnaga_ruin",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "xelnaga_ruin",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_mercenary_contract.scx",
+    "slug": "easy_terran_mercenary_contract",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "mercenary_contract",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_psi_emitter.scx",
+    "slug": "easy_terran_psi_emitter",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "psi_emitter",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_umojan_interference.scx",
+    "slug": "easy_terran_umojan_interference",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "umojan_interference",
+    "qtes": [
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_long_memory.scx",
+    "slug": "easy_terran_long_memory",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "long_memory",
+    "qtes": [
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_psi_and_swarm.scx",
+    "slug": "easy_terran_psi_and_swarm",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "psi_and_swarm",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_terran_squeeze.scx",
+    "slug": "easy_terran_terran_squeeze",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "terran_squeeze",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_durans_setup.scx",
+    "slug": "easy_terran_durans_setup",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "durans_setup",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_protoss_pincer.scx",
+    "slug": "easy_terran_protoss_pincer",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "protoss_pincer",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_outside_in.scx",
+    "slug": "easy_terran_outside_in",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "outside_in",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_zerg_escalation.scx",
+    "slug": "easy_terran_zerg_escalation",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "zerg_escalation",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_protoss_tribunal.scx",
+    "slug": "easy_terran_protoss_tribunal",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "protoss_tribunal",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_ancient_forces.scx",
+    "slug": "easy_terran_ancient_forces",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "ancient_forces",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_hired_then_judged.scx",
+    "slug": "easy_terran_hired_then_judged",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "hired_then_judged",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_terran_all_fronts.scx",
+    "slug": "easy_terran_all_fronts",
+    "difficulty": "easy",
+    "race": "terran",
+    "qte_loadout": "all_fronts",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_none.scx",
+    "slug": "easy_protoss_none",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "none",
+    "qtes": [],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_ghost_protocol.scx",
+    "slug": "easy_protoss_ghost_protocol",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "ghost_protocol",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_confederacy_remnant.scx",
+    "slug": "easy_protoss_confederacy_remnant",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "confederacy_remnant",
+    "qtes": [
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_jacobs_echo.scx",
+    "slug": "easy_protoss_jacobs_echo",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "jacobs_echo",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_durans_parting_gift.scx",
+    "slug": "easy_protoss_durans_parting_gift",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "durans_parting_gift",
+    "qtes": [
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_dominion_air_superiority.scx",
+    "slug": "easy_protoss_dominion_air_superiority",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "dominion_air_superiority",
+    "qtes": [
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_swarm_remembers.scx",
+    "slug": "easy_protoss_swarm_remembers",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "swarm_remembers",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_kerrigans_test.scx",
+    "slug": "easy_protoss_kerrigans_test",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "kerrigans_test",
+    "qtes": [
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_brood_incursion.scx",
+    "slug": "easy_protoss_brood_incursion",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "brood_incursion",
+    "qtes": [
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_nydus_surprise.scx",
+    "slug": "easy_protoss_nydus_surprise",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "nydus_surprise",
+    "qtes": [
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_chrysalis_guard.scx",
+    "slug": "easy_protoss_chrysalis_guard",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "chrysalis_guard",
+    "qtes": [
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_aldaris_judgment.scx",
+    "slug": "easy_protoss_aldaris_judgment",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "aldaris_judgment",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_dark_templar_shadows.scx",
+    "slug": "easy_protoss_dark_templar_shadows",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "dark_templar_shadows",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_judicators_decree.scx",
+    "slug": "easy_protoss_judicators_decree",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "judicators_decree",
+    "qtes": [
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_conclave_retaliation.scx",
+    "slug": "easy_protoss_conclave_retaliation",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "conclave_retaliation",
+    "qtes": [
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_tassadars_echo.scx",
+    "slug": "easy_protoss_tassadars_echo",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "tassadars_echo",
+    "qtes": [
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_xelnaga_ruin.scx",
+    "slug": "easy_protoss_xelnaga_ruin",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "xelnaga_ruin",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_mercenary_contract.scx",
+    "slug": "easy_protoss_mercenary_contract",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "mercenary_contract",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_psi_emitter.scx",
+    "slug": "easy_protoss_psi_emitter",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "psi_emitter",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_umojan_interference.scx",
+    "slug": "easy_protoss_umojan_interference",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "umojan_interference",
+    "qtes": [
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_long_memory.scx",
+    "slug": "easy_protoss_long_memory",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "long_memory",
+    "qtes": [
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_psi_and_swarm.scx",
+    "slug": "easy_protoss_psi_and_swarm",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "psi_and_swarm",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_terran_squeeze.scx",
+    "slug": "easy_protoss_terran_squeeze",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "terran_squeeze",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_durans_setup.scx",
+    "slug": "easy_protoss_durans_setup",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "durans_setup",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_protoss_pincer.scx",
+    "slug": "easy_protoss_protoss_pincer",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "protoss_pincer",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_outside_in.scx",
+    "slug": "easy_protoss_outside_in",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "outside_in",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_zerg_escalation.scx",
+    "slug": "easy_protoss_zerg_escalation",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "zerg_escalation",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_protoss_tribunal.scx",
+    "slug": "easy_protoss_protoss_tribunal",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "protoss_tribunal",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_ancient_forces.scx",
+    "slug": "easy_protoss_ancient_forces",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "ancient_forces",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_hired_then_judged.scx",
+    "slug": "easy_protoss_hired_then_judged",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "hired_then_judged",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_easy_protoss_all_fronts.scx",
+    "slug": "easy_protoss_all_fronts",
+    "difficulty": "easy",
+    "race": "protoss",
+    "qte_loadout": "all_fronts",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 4500
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_none.scx",
+    "slug": "medium_zerg_none",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "none",
+    "qtes": [],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_ghost_protocol.scx",
+    "slug": "medium_zerg_ghost_protocol",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "ghost_protocol",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_confederacy_remnant.scx",
+    "slug": "medium_zerg_confederacy_remnant",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "confederacy_remnant",
+    "qtes": [
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_jacobs_echo.scx",
+    "slug": "medium_zerg_jacobs_echo",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "jacobs_echo",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_durans_parting_gift.scx",
+    "slug": "medium_zerg_durans_parting_gift",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "durans_parting_gift",
+    "qtes": [
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_dominion_air_superiority.scx",
+    "slug": "medium_zerg_dominion_air_superiority",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "dominion_air_superiority",
+    "qtes": [
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_swarm_remembers.scx",
+    "slug": "medium_zerg_swarm_remembers",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "swarm_remembers",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_kerrigans_test.scx",
+    "slug": "medium_zerg_kerrigans_test",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "kerrigans_test",
+    "qtes": [
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_brood_incursion.scx",
+    "slug": "medium_zerg_brood_incursion",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "brood_incursion",
+    "qtes": [
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_nydus_surprise.scx",
+    "slug": "medium_zerg_nydus_surprise",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "nydus_surprise",
+    "qtes": [
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_chrysalis_guard.scx",
+    "slug": "medium_zerg_chrysalis_guard",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "chrysalis_guard",
+    "qtes": [
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_aldaris_judgment.scx",
+    "slug": "medium_zerg_aldaris_judgment",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "aldaris_judgment",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_dark_templar_shadows.scx",
+    "slug": "medium_zerg_dark_templar_shadows",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "dark_templar_shadows",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_judicators_decree.scx",
+    "slug": "medium_zerg_judicators_decree",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "judicators_decree",
+    "qtes": [
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_conclave_retaliation.scx",
+    "slug": "medium_zerg_conclave_retaliation",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "conclave_retaliation",
+    "qtes": [
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_tassadars_echo.scx",
+    "slug": "medium_zerg_tassadars_echo",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "tassadars_echo",
+    "qtes": [
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_xelnaga_ruin.scx",
+    "slug": "medium_zerg_xelnaga_ruin",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "xelnaga_ruin",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_mercenary_contract.scx",
+    "slug": "medium_zerg_mercenary_contract",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "mercenary_contract",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_psi_emitter.scx",
+    "slug": "medium_zerg_psi_emitter",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "psi_emitter",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_umojan_interference.scx",
+    "slug": "medium_zerg_umojan_interference",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "umojan_interference",
+    "qtes": [
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_long_memory.scx",
+    "slug": "medium_zerg_long_memory",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "long_memory",
+    "qtes": [
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_psi_and_swarm.scx",
+    "slug": "medium_zerg_psi_and_swarm",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "psi_and_swarm",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_terran_squeeze.scx",
+    "slug": "medium_zerg_terran_squeeze",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "terran_squeeze",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_durans_setup.scx",
+    "slug": "medium_zerg_durans_setup",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "durans_setup",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_protoss_pincer.scx",
+    "slug": "medium_zerg_protoss_pincer",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "protoss_pincer",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_outside_in.scx",
+    "slug": "medium_zerg_outside_in",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "outside_in",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_zerg_escalation.scx",
+    "slug": "medium_zerg_zerg_escalation",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "zerg_escalation",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_protoss_tribunal.scx",
+    "slug": "medium_zerg_protoss_tribunal",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "protoss_tribunal",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_ancient_forces.scx",
+    "slug": "medium_zerg_ancient_forces",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "ancient_forces",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_hired_then_judged.scx",
+    "slug": "medium_zerg_hired_then_judged",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "hired_then_judged",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_zerg_all_fronts.scx",
+    "slug": "medium_zerg_all_fronts",
+    "difficulty": "medium",
+    "race": "zerg",
+    "qte_loadout": "all_fronts",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_none.scx",
+    "slug": "medium_terran_none",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "none",
+    "qtes": [],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_ghost_protocol.scx",
+    "slug": "medium_terran_ghost_protocol",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "ghost_protocol",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_confederacy_remnant.scx",
+    "slug": "medium_terran_confederacy_remnant",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "confederacy_remnant",
+    "qtes": [
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_jacobs_echo.scx",
+    "slug": "medium_terran_jacobs_echo",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "jacobs_echo",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_durans_parting_gift.scx",
+    "slug": "medium_terran_durans_parting_gift",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "durans_parting_gift",
+    "qtes": [
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_dominion_air_superiority.scx",
+    "slug": "medium_terran_dominion_air_superiority",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "dominion_air_superiority",
+    "qtes": [
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_swarm_remembers.scx",
+    "slug": "medium_terran_swarm_remembers",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "swarm_remembers",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_kerrigans_test.scx",
+    "slug": "medium_terran_kerrigans_test",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "kerrigans_test",
+    "qtes": [
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_brood_incursion.scx",
+    "slug": "medium_terran_brood_incursion",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "brood_incursion",
+    "qtes": [
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_nydus_surprise.scx",
+    "slug": "medium_terran_nydus_surprise",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "nydus_surprise",
+    "qtes": [
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_chrysalis_guard.scx",
+    "slug": "medium_terran_chrysalis_guard",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "chrysalis_guard",
+    "qtes": [
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_aldaris_judgment.scx",
+    "slug": "medium_terran_aldaris_judgment",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "aldaris_judgment",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_dark_templar_shadows.scx",
+    "slug": "medium_terran_dark_templar_shadows",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "dark_templar_shadows",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_judicators_decree.scx",
+    "slug": "medium_terran_judicators_decree",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "judicators_decree",
+    "qtes": [
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_conclave_retaliation.scx",
+    "slug": "medium_terran_conclave_retaliation",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "conclave_retaliation",
+    "qtes": [
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_tassadars_echo.scx",
+    "slug": "medium_terran_tassadars_echo",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "tassadars_echo",
+    "qtes": [
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_xelnaga_ruin.scx",
+    "slug": "medium_terran_xelnaga_ruin",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "xelnaga_ruin",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_mercenary_contract.scx",
+    "slug": "medium_terran_mercenary_contract",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "mercenary_contract",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_psi_emitter.scx",
+    "slug": "medium_terran_psi_emitter",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "psi_emitter",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_umojan_interference.scx",
+    "slug": "medium_terran_umojan_interference",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "umojan_interference",
+    "qtes": [
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_long_memory.scx",
+    "slug": "medium_terran_long_memory",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "long_memory",
+    "qtes": [
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_psi_and_swarm.scx",
+    "slug": "medium_terran_psi_and_swarm",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "psi_and_swarm",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_terran_squeeze.scx",
+    "slug": "medium_terran_terran_squeeze",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "terran_squeeze",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_durans_setup.scx",
+    "slug": "medium_terran_durans_setup",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "durans_setup",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_protoss_pincer.scx",
+    "slug": "medium_terran_protoss_pincer",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "protoss_pincer",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_outside_in.scx",
+    "slug": "medium_terran_outside_in",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "outside_in",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_zerg_escalation.scx",
+    "slug": "medium_terran_zerg_escalation",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "zerg_escalation",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_protoss_tribunal.scx",
+    "slug": "medium_terran_protoss_tribunal",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "protoss_tribunal",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_ancient_forces.scx",
+    "slug": "medium_terran_ancient_forces",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "ancient_forces",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_hired_then_judged.scx",
+    "slug": "medium_terran_hired_then_judged",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "hired_then_judged",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_terran_all_fronts.scx",
+    "slug": "medium_terran_all_fronts",
+    "difficulty": "medium",
+    "race": "terran",
+    "qte_loadout": "all_fronts",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_none.scx",
+    "slug": "medium_protoss_none",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "none",
+    "qtes": [],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_ghost_protocol.scx",
+    "slug": "medium_protoss_ghost_protocol",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "ghost_protocol",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_confederacy_remnant.scx",
+    "slug": "medium_protoss_confederacy_remnant",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "confederacy_remnant",
+    "qtes": [
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_jacobs_echo.scx",
+    "slug": "medium_protoss_jacobs_echo",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "jacobs_echo",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_durans_parting_gift.scx",
+    "slug": "medium_protoss_durans_parting_gift",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "durans_parting_gift",
+    "qtes": [
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_dominion_air_superiority.scx",
+    "slug": "medium_protoss_dominion_air_superiority",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "dominion_air_superiority",
+    "qtes": [
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_swarm_remembers.scx",
+    "slug": "medium_protoss_swarm_remembers",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "swarm_remembers",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_kerrigans_test.scx",
+    "slug": "medium_protoss_kerrigans_test",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "kerrigans_test",
+    "qtes": [
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_brood_incursion.scx",
+    "slug": "medium_protoss_brood_incursion",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "brood_incursion",
+    "qtes": [
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_nydus_surprise.scx",
+    "slug": "medium_protoss_nydus_surprise",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "nydus_surprise",
+    "qtes": [
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_chrysalis_guard.scx",
+    "slug": "medium_protoss_chrysalis_guard",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "chrysalis_guard",
+    "qtes": [
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_aldaris_judgment.scx",
+    "slug": "medium_protoss_aldaris_judgment",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "aldaris_judgment",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_dark_templar_shadows.scx",
+    "slug": "medium_protoss_dark_templar_shadows",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "dark_templar_shadows",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_judicators_decree.scx",
+    "slug": "medium_protoss_judicators_decree",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "judicators_decree",
+    "qtes": [
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_conclave_retaliation.scx",
+    "slug": "medium_protoss_conclave_retaliation",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "conclave_retaliation",
+    "qtes": [
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_tassadars_echo.scx",
+    "slug": "medium_protoss_tassadars_echo",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "tassadars_echo",
+    "qtes": [
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_xelnaga_ruin.scx",
+    "slug": "medium_protoss_xelnaga_ruin",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "xelnaga_ruin",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_mercenary_contract.scx",
+    "slug": "medium_protoss_mercenary_contract",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "mercenary_contract",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_psi_emitter.scx",
+    "slug": "medium_protoss_psi_emitter",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "psi_emitter",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_umojan_interference.scx",
+    "slug": "medium_protoss_umojan_interference",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "umojan_interference",
+    "qtes": [
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_long_memory.scx",
+    "slug": "medium_protoss_long_memory",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "long_memory",
+    "qtes": [
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_psi_and_swarm.scx",
+    "slug": "medium_protoss_psi_and_swarm",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "psi_and_swarm",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_terran_squeeze.scx",
+    "slug": "medium_protoss_terran_squeeze",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "terran_squeeze",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_durans_setup.scx",
+    "slug": "medium_protoss_durans_setup",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "durans_setup",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_protoss_pincer.scx",
+    "slug": "medium_protoss_protoss_pincer",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "protoss_pincer",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_outside_in.scx",
+    "slug": "medium_protoss_outside_in",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "outside_in",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_zerg_escalation.scx",
+    "slug": "medium_protoss_zerg_escalation",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "zerg_escalation",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_protoss_tribunal.scx",
+    "slug": "medium_protoss_protoss_tribunal",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "protoss_tribunal",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_ancient_forces.scx",
+    "slug": "medium_protoss_ancient_forces",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "ancient_forces",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_hired_then_judged.scx",
+    "slug": "medium_protoss_hired_then_judged",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "hired_then_judged",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_medium_protoss_all_fronts.scx",
+    "slug": "medium_protoss_all_fronts",
+    "difficulty": "medium",
+    "race": "protoss",
+    "qte_loadout": "all_fronts",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 3600
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_none.scx",
+    "slug": "hard_zerg_none",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "none",
+    "qtes": [],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_ghost_protocol.scx",
+    "slug": "hard_zerg_ghost_protocol",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "ghost_protocol",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_confederacy_remnant.scx",
+    "slug": "hard_zerg_confederacy_remnant",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "confederacy_remnant",
+    "qtes": [
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_jacobs_echo.scx",
+    "slug": "hard_zerg_jacobs_echo",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "jacobs_echo",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_durans_parting_gift.scx",
+    "slug": "hard_zerg_durans_parting_gift",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "durans_parting_gift",
+    "qtes": [
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_dominion_air_superiority.scx",
+    "slug": "hard_zerg_dominion_air_superiority",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "dominion_air_superiority",
+    "qtes": [
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_swarm_remembers.scx",
+    "slug": "hard_zerg_swarm_remembers",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "swarm_remembers",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_kerrigans_test.scx",
+    "slug": "hard_zerg_kerrigans_test",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "kerrigans_test",
+    "qtes": [
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_brood_incursion.scx",
+    "slug": "hard_zerg_brood_incursion",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "brood_incursion",
+    "qtes": [
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_nydus_surprise.scx",
+    "slug": "hard_zerg_nydus_surprise",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "nydus_surprise",
+    "qtes": [
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_chrysalis_guard.scx",
+    "slug": "hard_zerg_chrysalis_guard",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "chrysalis_guard",
+    "qtes": [
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_aldaris_judgment.scx",
+    "slug": "hard_zerg_aldaris_judgment",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "aldaris_judgment",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_dark_templar_shadows.scx",
+    "slug": "hard_zerg_dark_templar_shadows",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "dark_templar_shadows",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_judicators_decree.scx",
+    "slug": "hard_zerg_judicators_decree",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "judicators_decree",
+    "qtes": [
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_conclave_retaliation.scx",
+    "slug": "hard_zerg_conclave_retaliation",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "conclave_retaliation",
+    "qtes": [
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_tassadars_echo.scx",
+    "slug": "hard_zerg_tassadars_echo",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "tassadars_echo",
+    "qtes": [
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_xelnaga_ruin.scx",
+    "slug": "hard_zerg_xelnaga_ruin",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "xelnaga_ruin",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_mercenary_contract.scx",
+    "slug": "hard_zerg_mercenary_contract",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "mercenary_contract",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_psi_emitter.scx",
+    "slug": "hard_zerg_psi_emitter",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "psi_emitter",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_umojan_interference.scx",
+    "slug": "hard_zerg_umojan_interference",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "umojan_interference",
+    "qtes": [
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_long_memory.scx",
+    "slug": "hard_zerg_long_memory",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "long_memory",
+    "qtes": [
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_psi_and_swarm.scx",
+    "slug": "hard_zerg_psi_and_swarm",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "psi_and_swarm",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_terran_squeeze.scx",
+    "slug": "hard_zerg_terran_squeeze",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "terran_squeeze",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_durans_setup.scx",
+    "slug": "hard_zerg_durans_setup",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "durans_setup",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_protoss_pincer.scx",
+    "slug": "hard_zerg_protoss_pincer",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "protoss_pincer",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_outside_in.scx",
+    "slug": "hard_zerg_outside_in",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "outside_in",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_zerg_escalation.scx",
+    "slug": "hard_zerg_zerg_escalation",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "zerg_escalation",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_protoss_tribunal.scx",
+    "slug": "hard_zerg_protoss_tribunal",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "protoss_tribunal",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_ancient_forces.scx",
+    "slug": "hard_zerg_ancient_forces",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "ancient_forces",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_hired_then_judged.scx",
+    "slug": "hard_zerg_hired_then_judged",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "hired_then_judged",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_zerg_all_fronts.scx",
+    "slug": "hard_zerg_all_fronts",
+    "difficulty": "hard",
+    "race": "zerg",
+    "qte_loadout": "all_fronts",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_none.scx",
+    "slug": "hard_terran_none",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "none",
+    "qtes": [],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_ghost_protocol.scx",
+    "slug": "hard_terran_ghost_protocol",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "ghost_protocol",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_confederacy_remnant.scx",
+    "slug": "hard_terran_confederacy_remnant",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "confederacy_remnant",
+    "qtes": [
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_jacobs_echo.scx",
+    "slug": "hard_terran_jacobs_echo",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "jacobs_echo",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_durans_parting_gift.scx",
+    "slug": "hard_terran_durans_parting_gift",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "durans_parting_gift",
+    "qtes": [
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_dominion_air_superiority.scx",
+    "slug": "hard_terran_dominion_air_superiority",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "dominion_air_superiority",
+    "qtes": [
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_swarm_remembers.scx",
+    "slug": "hard_terran_swarm_remembers",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "swarm_remembers",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_kerrigans_test.scx",
+    "slug": "hard_terran_kerrigans_test",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "kerrigans_test",
+    "qtes": [
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_brood_incursion.scx",
+    "slug": "hard_terran_brood_incursion",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "brood_incursion",
+    "qtes": [
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_nydus_surprise.scx",
+    "slug": "hard_terran_nydus_surprise",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "nydus_surprise",
+    "qtes": [
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_chrysalis_guard.scx",
+    "slug": "hard_terran_chrysalis_guard",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "chrysalis_guard",
+    "qtes": [
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_aldaris_judgment.scx",
+    "slug": "hard_terran_aldaris_judgment",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "aldaris_judgment",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_dark_templar_shadows.scx",
+    "slug": "hard_terran_dark_templar_shadows",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "dark_templar_shadows",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_judicators_decree.scx",
+    "slug": "hard_terran_judicators_decree",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "judicators_decree",
+    "qtes": [
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_conclave_retaliation.scx",
+    "slug": "hard_terran_conclave_retaliation",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "conclave_retaliation",
+    "qtes": [
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_tassadars_echo.scx",
+    "slug": "hard_terran_tassadars_echo",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "tassadars_echo",
+    "qtes": [
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_xelnaga_ruin.scx",
+    "slug": "hard_terran_xelnaga_ruin",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "xelnaga_ruin",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_mercenary_contract.scx",
+    "slug": "hard_terran_mercenary_contract",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "mercenary_contract",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_psi_emitter.scx",
+    "slug": "hard_terran_psi_emitter",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "psi_emitter",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_umojan_interference.scx",
+    "slug": "hard_terran_umojan_interference",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "umojan_interference",
+    "qtes": [
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_long_memory.scx",
+    "slug": "hard_terran_long_memory",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "long_memory",
+    "qtes": [
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_psi_and_swarm.scx",
+    "slug": "hard_terran_psi_and_swarm",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "psi_and_swarm",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_terran_squeeze.scx",
+    "slug": "hard_terran_terran_squeeze",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "terran_squeeze",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_durans_setup.scx",
+    "slug": "hard_terran_durans_setup",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "durans_setup",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_protoss_pincer.scx",
+    "slug": "hard_terran_protoss_pincer",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "protoss_pincer",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_outside_in.scx",
+    "slug": "hard_terran_outside_in",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "outside_in",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_zerg_escalation.scx",
+    "slug": "hard_terran_zerg_escalation",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "zerg_escalation",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_protoss_tribunal.scx",
+    "slug": "hard_terran_protoss_tribunal",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "protoss_tribunal",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_ancient_forces.scx",
+    "slug": "hard_terran_ancient_forces",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "ancient_forces",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_hired_then_judged.scx",
+    "slug": "hard_terran_hired_then_judged",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "hired_then_judged",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_terran_all_fronts.scx",
+    "slug": "hard_terran_all_fronts",
+    "difficulty": "hard",
+    "race": "terran",
+    "qte_loadout": "all_fronts",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_none.scx",
+    "slug": "hard_protoss_none",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "none",
+    "qtes": [],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_ghost_protocol.scx",
+    "slug": "hard_protoss_ghost_protocol",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "ghost_protocol",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_confederacy_remnant.scx",
+    "slug": "hard_protoss_confederacy_remnant",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "confederacy_remnant",
+    "qtes": [
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_jacobs_echo.scx",
+    "slug": "hard_protoss_jacobs_echo",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "jacobs_echo",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_durans_parting_gift.scx",
+    "slug": "hard_protoss_durans_parting_gift",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "durans_parting_gift",
+    "qtes": [
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_dominion_air_superiority.scx",
+    "slug": "hard_protoss_dominion_air_superiority",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "dominion_air_superiority",
+    "qtes": [
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_swarm_remembers.scx",
+    "slug": "hard_protoss_swarm_remembers",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "swarm_remembers",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_kerrigans_test.scx",
+    "slug": "hard_protoss_kerrigans_test",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "kerrigans_test",
+    "qtes": [
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_brood_incursion.scx",
+    "slug": "hard_protoss_brood_incursion",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "brood_incursion",
+    "qtes": [
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_nydus_surprise.scx",
+    "slug": "hard_protoss_nydus_surprise",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "nydus_surprise",
+    "qtes": [
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_chrysalis_guard.scx",
+    "slug": "hard_protoss_chrysalis_guard",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "chrysalis_guard",
+    "qtes": [
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_aldaris_judgment.scx",
+    "slug": "hard_protoss_aldaris_judgment",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "aldaris_judgment",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_dark_templar_shadows.scx",
+    "slug": "hard_protoss_dark_templar_shadows",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "dark_templar_shadows",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_judicators_decree.scx",
+    "slug": "hard_protoss_judicators_decree",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "judicators_decree",
+    "qtes": [
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_conclave_retaliation.scx",
+    "slug": "hard_protoss_conclave_retaliation",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "conclave_retaliation",
+    "qtes": [
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_tassadars_echo.scx",
+    "slug": "hard_protoss_tassadars_echo",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "tassadars_echo",
+    "qtes": [
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_xelnaga_ruin.scx",
+    "slug": "hard_protoss_xelnaga_ruin",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "xelnaga_ruin",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_mercenary_contract.scx",
+    "slug": "hard_protoss_mercenary_contract",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "mercenary_contract",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_psi_emitter.scx",
+    "slug": "hard_protoss_psi_emitter",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "psi_emitter",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_umojan_interference.scx",
+    "slug": "hard_protoss_umojan_interference",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "umojan_interference",
+    "qtes": [
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_long_memory.scx",
+    "slug": "hard_protoss_long_memory",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "long_memory",
+    "qtes": [
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_psi_and_swarm.scx",
+    "slug": "hard_protoss_psi_and_swarm",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "psi_and_swarm",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_terran_squeeze.scx",
+    "slug": "hard_protoss_terran_squeeze",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "terran_squeeze",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_durans_setup.scx",
+    "slug": "hard_protoss_durans_setup",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "durans_setup",
+    "qtes": [
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran"
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_protoss_pincer.scx",
+    "slug": "hard_protoss_protoss_pincer",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "protoss_pincer",
+    "qtes": [
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss"
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_outside_in.scx",
+    "slug": "hard_protoss_outside_in",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "outside_in",
+    "qtes": [
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_zerg_escalation.scx",
+    "slug": "hard_protoss_zerg_escalation",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "zerg_escalation",
+    "qtes": [
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg"
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg"
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_protoss_tribunal.scx",
+    "slug": "hard_protoss_protoss_tribunal",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "protoss_tribunal",
+    "qtes": [
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_ancient_forces.scx",
+    "slug": "hard_protoss_ancient_forces",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "ancient_forces",
+    "qtes": [
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_hired_then_judged.scx",
+    "slug": "hard_protoss_hired_then_judged",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "hired_then_judged",
+    "qtes": [
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard"
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss"
+      }
+    ],
+    "timer_seconds": 2700
+  },
+  {
+    "filename": "tundra_of_terror_0.3_hard_protoss_all_fronts.scx",
+    "slug": "hard_protoss_all_fronts",
+    "difficulty": "hard",
+    "race": "protoss",
+    "qte_loadout": "all_fronts",
+    "qtes": [
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran"
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard"
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard"
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard"
+      }
+    ],
+    "timer_seconds": 2700
+  }
+]

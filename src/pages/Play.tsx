@@ -1,166 +1,265 @@
 import { useState, useEffect } from 'react'
-import ContentBox from '../components/ContentBox'
 import { Link } from 'react-router-dom'
+import ContentBox from '../components/ContentBox'
+import './Play.css'
 
-interface Variant {
+// JSON files (manifest.json, variables.json) are served from public/ — same origin, no CORS.
+const JSON_BASE: string = import.meta.env.BASE_URL
+
+// .scx files live on S3/CloudFront.  Set VITE_MAPS_BASE_URL in .env.local or CI:
+//   VITE_MAPS_BASE_URL=https://dprb1kkglcoiz.cloudfront.net/maps/
+const DOWNLOAD_BASE: string =
+  (import.meta.env.VITE_MAPS_BASE_URL as string | undefined) ?? import.meta.env.BASE_URL
+
+function ensure_slash(s: string): string {
+  return s.endsWith('/') ? s : s + '/'
+}
+
+function fmt_time(s: number): string {
+  return `${Math.floor(s / 60)}:${(s % 60).toString().padStart(2, '0')}`
+}
+
+// ── Types ──────────────────────────────────────────────────────────────────────
+
+interface DifficultyOption {
   id: string
+  label: string
+  timer_seconds: number
+}
+
+interface RaceOption {
+  id: string
+  label: string
+}
+
+interface QteOption {
+  id: string
+  label: string
+  category: string
+  fire_time_seconds?: number
+  description?: string
+  qte_ids?: string[]
+}
+
+interface Variables {
+  difficulty: { options: DifficultyOption[] }
+  race: { options: RaceOption[] }
+  qte: { options: QteOption[] }
+}
+
+interface ManifestEntry {
+  filename: string
   difficulty: string
-  description: string
-  timeLimit: string
-  downloadUrl: string
+  race: string
+  qte_loadout: string
+  qtes: { id: string; label: string }[]
+  timer_seconds: number
 }
 
-interface GameMap {
-  id: string
-  name: string
-  version: string
-  description: string
-  variants: Variant[]
-}
+// ── Component ──────────────────────────────────────────────────────────────────
 
-interface MapsManifest {
-  maps: GameMap[]
-}
-
-function Play() {
-  const [maps, setMaps] = useState<GameMap[]>([])
-  const [selectedVariants, setSelectedVariants] = useState<Record<string, string>>({})
+export default function Play() {
+  const [variables, setVariables] = useState<Variables | null>(null)
+  const [manifest, setManifest] = useState<ManifestEntry[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
+  const [selDifficulty, setSelDifficulty] = useState<string | null>(null)
+  const [selRace, setSelRace] = useState<string | null>(null)
+  const [selQte, setSelQte] = useState<string | null>(null)
+
   useEffect(() => {
-    fetch(import.meta.env.BASE_URL + 'maps.json')
-      .then(res => {
-        if (!res.ok) throw new Error(`Failed to load maps: ${res.status}`)
-        return res.json() as Promise<MapsManifest>
-      })
-      .then(data => {
-        setMaps(data.maps)
-        const defaults: Record<string, string> = {}
-        for (const map of data.maps) {
-          if (map.variants.length > 0) {
-            defaults[map.id] = map.variants[0].id
-          }
-        }
-        setSelectedVariants(defaults)
-      })
-      .catch(err => setError(err.message))
+    const b = ensure_slash(JSON_BASE)
+    Promise.all([
+      fetch(b + 'variables.json').then(r => {
+        if (!r.ok) throw new Error(`variables.json: ${r.status}`)
+        return r.json() as Promise<Variables>
+      }),
+      fetch(b + 'manifest.json').then(r => {
+        if (!r.ok) throw new Error(`manifest.json: ${r.status}`)
+        return r.json() as Promise<ManifestEntry[]>
+      }),
+    ])
+      .then(([vars, mfst]) => { setVariables(vars); setManifest(mfst) })
+      .catch(err => setError((err as Error).message))
       .finally(() => setLoading(false))
   }, [])
 
-  const handleDownload = (map: GameMap) => {
-    const variant = map.variants.find(v => v.id === selectedVariants[map.id])
-    if (variant) {
-      window.open(variant.downloadUrl, '_blank')
-    }
-  }
+  if (loading) return (
+    <main className="main-content">
+      <ContentBox title="Play BW Co-op"><p>Loading map data...</p></ContentBox>
+    </main>
+  )
 
-  if (loading) {
-    return (
-      <main className="main-content">
-        <ContentBox title="Play BW Co-op">
-          <p>Loading maps...</p>
-        </ContentBox>
-      </main>
-    )
-  }
+  if (error || !variables) return (
+    <main className="main-content">
+      <ContentBox title="Play BW Co-op">
+        <p className="err">Error loading map data: {error}</p>
+      </ContentBox>
+    </main>
+  )
 
-  if (error) {
-    return (
-      <main className="main-content">
-        <ContentBox title="Play BW Co-op">
-          <p style={{ color: '#ff4444' }}>Error: {error}</p>
-        </ContentBox>
-      </main>
-    )
-  }
+  const qteOpts = variables.qte.options
+  const factions: [string, string][] = [
+    ['terran', 'Terran'], ['zerg', 'Zerg'], ['protoss', 'Protoss'], ['wildcard', 'Wildcard'],
+  ]
+
+  const entry = selDifficulty && selRace && selQte
+    ? manifest.find(m => m.difficulty === selDifficulty && m.race === selRace && m.qte_loadout === selQte)
+    : undefined
+
+  const diffOpt = variables.difficulty.options.find(o => o.id === selDifficulty)
+  const raceOpt = variables.race.options.find(o => o.id === selRace)
+  const qteOpt  = variables.qte.options.find(o => o.id === selQte)
 
   return (
     <main className="main-content">
       <ContentBox title="Play BW Co-op">
-        <p>Select your preferred game modes and download the maps to get started.</p>
         <p>
-          New to BW Co-op? Check out our <Link to="/setup">Setup Guide</Link> for detailed installation instructions.
+          Configure your variant and download the map.{' '}
+          New? See the <Link to="/setup">Setup Guide</Link>.
         </p>
       </ContentBox>
 
-      {maps.map(map => (
-        <ContentBox key={map.id} title={`${map.name} ${map.version}`}>
-          <p>{map.description}</p>
+      <ContentBox title="Select Your Variant">
+        <div className="variant-grid">
 
-          <h4>Select Difficulty:</h4>
-          <div style={{ marginBottom: '20px' }}>
-            {map.variants.map(variant => (
-              <div key={variant.id} style={{
-                marginBottom: '10px',
-                padding: '15px',
-                border: '1px solid #ccc',
-                borderRadius: '5px',
-                backgroundColor: selectedVariants[map.id] === variant.id ? '#e8f4f8' : 'transparent'
-              }}>
-                <label style={{ display: 'flex', alignItems: 'flex-start', cursor: 'pointer' }}>
-                  <input
-                    type="radio"
-                    name={`gameMode-${map.id}`}
-                    value={variant.id}
-                    checked={selectedVariants[map.id] === variant.id}
-                    onChange={(e) => setSelectedVariants(prev => ({ ...prev, [map.id]: e.target.value }))}
-                    style={{ marginRight: '10px', marginTop: '2px' }}
-                  />
-                  <div>
-                    <h4 style={{ margin: '0 0 5px 0' }}>{variant.difficulty} Difficulty</h4>
-                    <p style={{ margin: '0 0 5px 0', color: '#666' }}>{variant.description}</p>
-                    <div style={{ fontSize: '14px', color: '#888' }}>
-                      <strong>Time Limit:</strong> {variant.timeLimit}
-                    </div>
-                  </div>
-                </label>
-              </div>
-            ))}
+          {/* Difficulty */}
+          <div className="selector-panel">
+            <div className="selector-header">Difficulty</div>
+            <div className="selector-list">
+              {variables.difficulty.options.map(o => (
+                <button
+                  key={o.id}
+                  className={`selector-btn${selDifficulty === o.id ? ' selected' : ''}`}
+                  onClick={() => setSelDifficulty(o.id)}
+                >
+                  <span>{o.label}</span>
+                  <span className="selector-sub">{fmt_time(o.timer_seconds)}</span>
+                </button>
+              ))}
+            </div>
           </div>
 
-          <button
-            onClick={() => handleDownload(map)}
-            style={{
-              padding: '16px 24px',
-              fontSize: '16px',
-              backgroundColor: 'transparent',
-              color: '#00ff00',
-              border: '1px solid #00ff00',
-              borderRadius: '0',
-              cursor: 'pointer',
-              fontFamily: '"Courier New", monospace',
-              width: '100%',
-              transition: 'all 0.2s ease',
-              textTransform: 'uppercase',
-              letterSpacing: '1px'
-            }}
-            onMouseOver={(e) => {
-              e.currentTarget.style.backgroundColor = '#00ff00'
-              e.currentTarget.style.color = '#000000'
-            }}
-            onMouseOut={(e) => {
-              e.currentTarget.style.backgroundColor = 'transparent'
-              e.currentTarget.style.color = '#00ff00'
-            }}
-          >
-            Download {map.variants.find(v => v.id === selectedVariants[map.id])?.difficulty} Version
-          </button>
+          {/* Race */}
+          <div className="selector-panel">
+            <div className="selector-header">Enemy Race</div>
+            <div className="selector-list">
+              {variables.race.options.map(o => (
+                <button
+                  key={o.id}
+                  className={`selector-btn${selRace === o.id ? ' selected' : ''}`}
+                  onClick={() => setSelRace(o.id)}
+                >
+                  <span>{o.label}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* QTE */}
+          <div className="selector-panel">
+            <div className="selector-header">Quick Time Event</div>
+            <div className="selector-list scrollable">
+
+              {(() => {
+                const none = qteOpts.find(o => o.category === 'none')
+                return none && (
+                  <button
+                    className={`selector-btn${selQte === none.id ? ' selected' : ''}`}
+                    onClick={() => setSelQte(none.id)}
+                  >
+                    <span>{none.label}</span>
+                  </button>
+                )
+              })()}
+
+              {factions.map(([cat, name]) => {
+                const singles = qteOpts.filter(o => o.category === cat)
+                if (!singles.length) return null
+                return (
+                  <div key={cat}>
+                    <div className="selector-group">{name}</div>
+                    {singles.map(o => (
+                      <button
+                        key={o.id}
+                        className={`selector-btn${selQte === o.id ? ' selected' : ''}`}
+                        onClick={() => setSelQte(o.id)}
+                      >
+                        <span>{o.label}</span>
+                        {o.fire_time_seconds && (
+                          <span className="selector-sub">@{fmt_time(o.fire_time_seconds)}</span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                )
+              })}
+
+              {(() => {
+                const combos = qteOpts.filter(o => o.category === 'combo')
+                if (!combos.length) return null
+                return (
+                  <div>
+                    <div className="selector-group">Combo Loadouts</div>
+                    {combos.map(o => (
+                      <button
+                        key={o.id}
+                        className={`selector-btn${selQte === o.id ? ' selected' : ''}`}
+                        onClick={() => setSelQte(o.id)}
+                      >
+                        <span>{o.label}</span>
+                        {o.description && (
+                          <span className="selector-sub combo-desc">{o.description}</span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                )
+              })()}
+
+            </div>
+          </div>
+
+        </div>
+      </ContentBox>
+
+      {selDifficulty && selRace && selQte && (
+        <ContentBox title="Download">
+          {entry ? (
+            <div className="download-section">
+              <div className="download-filename">{entry.filename}</div>
+              <div className="download-meta">
+                <span>{diffOpt?.label}</span>
+                <span>vs. {raceOpt?.label}</span>
+                <span>Timer {fmt_time(entry.timer_seconds)}</span>
+              </div>
+              <div className="download-events">
+                Event:{' '}
+                {entry.qtes.length ? entry.qtes.map(q => q.label).join('  +  ') : 'None'}
+                {qteOpt?.description && (
+                  <span className="download-desc"> — {qteOpt.description}</span>
+                )}
+              </div>
+              <a className="download-btn" href={ensure_slash(DOWNLOAD_BASE) + entry.filename} download={entry.filename}>
+                Download Map
+              </a>
+            </div>
+          ) : (
+            <p className="err">Map not found — regenerate the manifest.</p>
+          )}
         </ContentBox>
-      ))}
+      )}
 
       <ContentBox title="Getting Started">
-        <p>After downloading your maps:</p>
+        <p>After downloading:</p>
         <ol>
-          <li>Place the .scm files in your StarCraft Maps folder</li>
-          <li>Launch StarCraft and go to Multiplayer → Use Map Settings</li>
+          <li>Place the .scx file in your StarCraft Maps folder</li>
+          <li>Launch StarCraft → Multiplayer → Use Map Settings</li>
           <li>Create or join a game with your selected map</li>
-          <li>Invite 1-3 friends for the best co-op experience</li>
+          <li>Invite 1–3 friends for the best co-op experience</li>
         </ol>
-        <p><em>Communication is key - use voice chat for coordination!</em></p>
       </ContentBox>
     </main>
   )
 }
-
-export default Play

@@ -1,0 +1,273 @@
+{
+  "difficulty": {
+    "label": "Difficulty",
+    "options": [
+      {
+        "id": "easy",
+        "label": "Easy",
+        "timer_seconds": 4500
+      },
+      {
+        "id": "medium",
+        "label": "Medium",
+        "timer_seconds": 3600
+      },
+      {
+        "id": "hard",
+        "label": "Hard",
+        "timer_seconds": 2700
+      }
+    ]
+  },
+  "race": {
+    "label": "Enemy Race",
+    "options": [
+      {
+        "id": "zerg",
+        "label": "Zerg"
+      },
+      {
+        "id": "terran",
+        "label": "Terran"
+      },
+      {
+        "id": "protoss",
+        "label": "Protoss"
+      }
+    ]
+  },
+  "qte": {
+    "label": "Quick Time Event",
+    "options": [
+      {
+        "id": "none",
+        "label": "No Event",
+        "category": "none"
+      },
+      {
+        "id": "ghost_protocol",
+        "label": "The Ghost Protocol",
+        "category": "terran",
+        "fire_time_seconds": 120
+      },
+      {
+        "id": "confederacy_remnant",
+        "label": "Confederacy Remnant",
+        "category": "terran",
+        "fire_time_seconds": 180
+      },
+      {
+        "id": "jacobs_echo",
+        "label": "The Jacobs Installation Echo",
+        "category": "terran",
+        "fire_time_seconds": 240
+      },
+      {
+        "id": "durans_parting_gift",
+        "label": "Duran's Parting Gift",
+        "category": "terran",
+        "fire_time_seconds": 300
+      },
+      {
+        "id": "dominion_air_superiority",
+        "label": "Dominion Air Superiority",
+        "category": "terran",
+        "fire_time_seconds": 210
+      },
+      {
+        "id": "swarm_remembers",
+        "label": "The Swarm Remembers",
+        "category": "zerg",
+        "fire_time_seconds": 150
+      },
+      {
+        "id": "kerrigans_test",
+        "label": "Kerrigan's Test",
+        "category": "zerg",
+        "fire_time_seconds": 200
+      },
+      {
+        "id": "brood_incursion",
+        "label": "Brood Incursion",
+        "category": "zerg",
+        "fire_time_seconds": 270
+      },
+      {
+        "id": "nydus_surprise",
+        "label": "Nydus Surprise",
+        "category": "zerg",
+        "fire_time_seconds": 330
+      },
+      {
+        "id": "chrysalis_guard",
+        "label": "The Chrysalis Guard",
+        "category": "zerg",
+        "fire_time_seconds": 390
+      },
+      {
+        "id": "aldaris_judgment",
+        "label": "Aldaris's Judgment",
+        "category": "protoss",
+        "fire_time_seconds": 160
+      },
+      {
+        "id": "dark_templar_shadows",
+        "label": "Dark Templar Shadows",
+        "category": "protoss",
+        "fire_time_seconds": 220
+      },
+      {
+        "id": "judicators_decree",
+        "label": "The Judicator's Decree",
+        "category": "protoss",
+        "fire_time_seconds": 280
+      },
+      {
+        "id": "conclave_retaliation",
+        "label": "Conclave Retaliation",
+        "category": "protoss",
+        "fire_time_seconds": 340
+      },
+      {
+        "id": "tassadars_echo",
+        "label": "Tassadar's Echo",
+        "category": "protoss",
+        "fire_time_seconds": 400
+      },
+      {
+        "id": "xelnaga_ruin",
+        "label": "The Xel'Naga Ruin Awakens",
+        "category": "wildcard",
+        "fire_time_seconds": 250
+      },
+      {
+        "id": "mercenary_contract",
+        "label": "Mercenary Contract",
+        "category": "wildcard",
+        "fire_time_seconds": 190
+      },
+      {
+        "id": "psi_emitter",
+        "label": "The Psi Emitter Trap",
+        "category": "wildcard",
+        "fire_time_seconds": 170
+      },
+      {
+        "id": "umojan_interference",
+        "label": "Umojan Protectorate Interference",
+        "category": "wildcard",
+        "fire_time_seconds": 230
+      },
+      {
+        "id": "long_memory",
+        "label": "The Long Memory",
+        "category": "wildcard",
+        "fire_time_seconds": 350
+      },
+      {
+        "id": "psi_and_swarm",
+        "label": "Psi & Swarm",
+        "category": "combo",
+        "description": "Rapid-fire double zerg hit, 20 seconds apart",
+        "qte_ids": [
+          "swarm_remembers",
+          "psi_emitter"
+        ]
+      },
+      {
+        "id": "terran_squeeze",
+        "label": "Terran Squeeze",
+        "category": "combo",
+        "description": "Ground then air from separate vectors",
+        "qte_ids": [
+          "ghost_protocol",
+          "dominion_air_superiority"
+        ]
+      },
+      {
+        "id": "durans_setup",
+        "label": "Duran's Setup",
+        "category": "combo",
+        "description": "Zerg bait draws you east, Duran flanks west",
+        "qte_ids": [
+          "jacobs_echo",
+          "durans_parting_gift"
+        ]
+      },
+      {
+        "id": "protoss_pincer",
+        "label": "Protoss Pincer",
+        "category": "combo",
+        "description": "DTs take the west, Conclave closes east and south",
+        "qte_ids": [
+          "dark_templar_shadows",
+          "conclave_retaliation"
+        ]
+      },
+      {
+        "id": "outside_in",
+        "label": "Outside In",
+        "category": "combo",
+        "description": "Perimeter flooded first, then they spawn inside",
+        "qte_ids": [
+          "psi_emitter",
+          "nydus_surprise"
+        ]
+      },
+      {
+        "id": "zerg_escalation",
+        "label": "Zerg Escalation",
+        "category": "combo",
+        "description": "Three-act zerg: lurkers \u2192 ultralisks \u2192 guardians",
+        "qte_ids": [
+          "swarm_remembers",
+          "brood_incursion",
+          "chrysalis_guard"
+        ]
+      },
+      {
+        "id": "protoss_tribunal",
+        "label": "Protoss Tribunal",
+        "category": "combo",
+        "description": "Full protoss arc across the entire run",
+        "qte_ids": [
+          "aldaris_judgment",
+          "judicators_decree",
+          "tassadars_echo"
+        ]
+      },
+      {
+        "id": "ancient_forces",
+        "label": "Ancient Forces",
+        "category": "combo",
+        "description": "Xel'Naga ruins activate, then the Long Memory closes in",
+        "qte_ids": [
+          "xelnaga_ruin",
+          "long_memory"
+        ]
+      },
+      {
+        "id": "hired_then_judged",
+        "label": "Hired Then Judged",
+        "category": "combo",
+        "description": "Mercs arrive, then Protoss show up to punish everyone",
+        "qte_ids": [
+          "mercenary_contract",
+          "judicators_decree"
+        ]
+      },
+      {
+        "id": "all_fronts",
+        "label": "All Fronts",
+        "category": "combo",
+        "description": "Four factions, constant shifting pressure, never a lull",
+        "qte_ids": [
+          "ghost_protocol",
+          "psi_emitter",
+          "umojan_interference",
+          "long_memory"
+        ]
+      }
+    ]
+  }
+}
